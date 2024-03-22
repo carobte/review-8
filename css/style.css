@@ -1,0 +1,56 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cajas{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+}
+
+.azules{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    display: inline-block;
+}
+
+.roja{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+.tercera{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cajas-grid{
+    width: 50px;
+    height: 50px;
+    background-color: rebeccapurple;
+}
+
+.cuarta{
+    display: grid;
+/*     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; */
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 10px;
+}
+
+.quinta{
+    float: left;
+}
+
+.caja-float{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+
+}

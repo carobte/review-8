@@ -1,2 +1,2 @@
 # Cine-Riwi
-Proyecto para Riwi, landing page de un cinema
+Ejercicios para Riwi, sesión 8 review
